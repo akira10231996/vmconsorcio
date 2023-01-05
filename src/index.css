@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Inter !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+  text-decoration: underline;
+  color: #dad9d4;
+  transition: all 0.2;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+}
+.ant-dropdown-menu {
+  background: transparent !important;
+  color: white;
+}
+
+.ant-dropdown-menu-submenu-title {
+  color: inherit;
+}
+
+.MuiTableHead-root .MuiTableCell-head {
+  @apply text-gray-100 font-normal;
+  font-family: Inter;
+  background: #562225;
+  font-size: 12px !important;
+}
+
+.MuiInputBase-input:active {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+/* .MuiList-root {
+  background: #343a3f !important;
+}
+.MuiList-root .MuiMenuItem-root {
+  background: #343a3f !important;
+  color: #F3F5F7;
+} */
+
+.ps-menu-label {
+  font-size: 14px !important;
+  font-weight: 500;
+  font-family: Inter;
+}
